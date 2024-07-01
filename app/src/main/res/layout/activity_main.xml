@@ -26,6 +26,7 @@
         android:layout_height="wrap_content"
         android:hint="Enter the name"
         android:textColorHint="#E45E5E5F"
+        android:textColor="@color/black"
         android:id="@+id/name"/>
     <TextView
         android:layout_width="match_parent"
@@ -39,6 +40,7 @@
         android:layout_height="wrap_content"
         android:textColorHint="#E45E5E5F"
         android:hint="Enter the friend name"
+        android:textColor="@color/black"
         android:id="@+id/friendname"/>
     <TextView
         android:layout_width="match_parent"
@@ -51,6 +53,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter the friend nickname"
+        android:textColor="@color/black"
         android:textColorHint="#E45E5E5F"
         android:id="@+id/friendnickname"/>
 
@@ -69,6 +72,7 @@
         android:layout_width="match_parent"
         android:layout_height="103dp"
         android:textColorHint="#E45E5E5F"
+        android:textColor="@color/black"
         android:hint="Enter the description"
         />
 
@@ -80,6 +84,15 @@
         android:layout_margin="20px"
         android:background="#3279AE"
         android:textColor="@color/black"
+
         android:text="ADD" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/viewfrnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:background="#3279AE"
+        android:textColor="@color/black"
+        android:text="VIEW ALL FRIENDS" />
 
 </LinearLayout>
